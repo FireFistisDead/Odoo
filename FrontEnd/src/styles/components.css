@@ -1,0 +1,59 @@
+.trending-skills {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.trending-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.trending-card {
+  padding: 1rem;
+  background: white;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.trending-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-color: #94a3b8;
+}
+
+.trending-skill-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.trending-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.mentor-count {
+  color: #059669;
+  font-weight: 500;
+}
+
+.trending-count {
+  color: #6366f1;
+  font-weight: 500;
+}
