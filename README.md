@@ -112,7 +112,8 @@ Auto-Suggest Swaps: Intelligent pairing of users based on mutual skill interests
 Skill Path Builder: Recommend a learning path based on user’s current skills
 
 # WireFrame
-![WhatsApp Image 2025-07-12 at 17 10 52_2310c8b2](https://github.com/user-attachments/assets/3e45843f-4a11-4368-9d3e-257340945cd6)
+<img width="1031" height="690" alt="Screenshot 2025-07-12 172644 1" src="https://github.com/user-attachments/assets/0c758725-ca6f-406c-a9ac-97768f2fb655" />
+
 
 
 ## 🛠 Tech Stack
