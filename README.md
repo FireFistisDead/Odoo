@@ -1,60 +1,70 @@
-# 🚀 Skill Swap Platform — Grow Together 🤝💡
+# Getting Started with Create React App
 
-A **Skill Swap Web Application** built to help individuals **offer, request, and exchange skills**, enhanced by an **AI-powered chatbot (GrowBot)** that gives intelligent suggestions using **Gemini Pro API**.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Skill Swap Banner](https://imgur.com/xyz123.png) <!-- Replace with your actual banner link -->
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 🧠 What is Skill Swap?
+### `npm start`
 
-> 🌐 A platform where users can:
-- List the skills they **offer**
-- Request the skills they **want to learn**
-- Browse and connect with others in a **community-driven ecosystem**
-- Let AI suggest which skills to learn next and whom to learn them from!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## ✨ Features
+### `npm test`
 
-### 👤 User Side:
-- Create a public/private profile with **photo, name, and skills**
-- Add skills you **offer** and **want**
-- Mark your **availability** (weekends, evenings, etc.)
-- Send, accept, or reject **swap requests**
-- Delete pending swap requests
-- Rate others after swaps ✅
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 🤖 GrowBot (AI Chat Assistant):
-- Built with **Gemini Pro API**
-- Chat with GrowBot for:
-  - Skill suggestions (e.g., "I know Excel" → Suggests Power BI)
-  - How-to advice on skill swaps
-  - Fun facts, jokes, or general help
+### `npm run build`
 
-### 🧑‍💻 Admin Panel:
-- Review and **reject spammy skills**
-- **Ban users** violating policies
-- Monitor **swap activity logs**
-- Send **platform-wide messages**
-- Export **reports and statistics**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🔥 Bonus Features
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Top Skill Trends**: See what skills are most in-demand on the platform
-- **Auto-Suggest Swaps**: Intelligent pairing of users based on mutual skill interests
-- **Skill Path Builder**: Recommend a learning path based on user’s current skills
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 🛠 Tech Stack
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-| Frontend       | Database       | AI Integration       |
-|----------------|----------------|----------------------|
-| React (Node.js) | Firebase Firestore | Gemini Pro (Google Generative AI) |
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
