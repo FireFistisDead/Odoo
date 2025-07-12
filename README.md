@@ -52,19 +52,9 @@ A **Skill Swap Web Application** built to help individuals **offer, request, and
 
 ## 🛠 Tech Stack
 
-| Frontend       | Backend (Optional) | Database       | AI Integration       |
-|----------------|--------------------|----------------|----------------------|
-| React (Node.js) | Express (optional) | Firebase Firestore | Gemini Pro (Google Generative AI) |
+| Frontend       | Database       | AI Integration       |
+|----------------|----------------|----------------------|
+| React (Node.js) | Firebase Firestore | Gemini Pro (Google Generative AI) |
 
 ---
 
-## 💬 How to Use GrowBot (Chatbot)
-
-```js
-// From frontend, trigger:
-POST https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY
-
-// Example prompt:
-{
-  contents: [{ parts: [{ text: "I know Photoshop, what should I learn next?" }] }]
-}
